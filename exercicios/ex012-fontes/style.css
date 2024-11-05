@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'vogue';
+    src: url('Vogue.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+            font: normal, 16px, times, sans-serif;
+            text-align: left;
+            background-color: rgb(135, 84, 201)
+        }
+        h1{
+            text-align: left;
+            color:rgb(50, 0, 97);
+        }
+        h1#principal{
+            font-family: 'vogue', 'Times New Roman', Times, serif;
+            font-size: 2em;
+            text-align: center;
+            background-color: rgb(50, 0, 97);
+            color: whitesmoke;
+        }
+        h2{
+            text-align: right;
+            color: rgb(245, 193, 255);
+
+        }
+        h2#segundo{
+                background-color: rgba(1, 85, 33, 0.267);
+                color: rgb(255, 255, 255);
+                text-align: center;
+        }
+        h2.basico{
+            color: rgb(255, 255, 255);
+            text-align:center;
+            background-color: rgba(1, 85, 33, 0.267);
+        }
+        h2.intermediario{
+            background-color: rgba(194, 123, 31, 0.39);
+            text-align: right;
+            color: rgb(63, 0, 92);
+        }
+        
+        p{
+            text-align: justify;
+            text-indent: 20px;
+
+        }
+       

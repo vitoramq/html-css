@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0px;
+        }
+
+        header{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgba(110, 117, 124, 0.493);
+            padding: 3px; 
+            box-shadow: 5px 3px 6px black;
+
+        }
+       
+
+        nav > a {
+            text-decoration: none;
+            color: whitesmoke;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > :hover{
+            text-decoration: underline;
+            color: rgb(0, 0, 0);
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 30px;
+        }
+
+        article{
+            background-color: rgb(198, 225, 252);
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: whitesmoke;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte Política Tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Artigo sobre texto.</h2>
+                <aside>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum tenetur eos amet doloremque possimus ea nam, in illo modi molestias, ipsum, omnis culpa error suscipit excepturi quibusdam! Nemo, ad accusamus.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Vitor.</p>
+    </footer>
+    <div id="bola"></div>
+
+</body>
+</html>

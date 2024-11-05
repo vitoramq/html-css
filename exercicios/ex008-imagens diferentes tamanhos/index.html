@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML.</p>
+    <audio src="midia/thisisreallyhappening.mp3.mp3" controls autoplay loop></audio>
+
+             <!---pexels.com      iamgens e videos--->
+
+    <h1>Reproduzindo vídeos</h1>
+    <p>\Este vídeo está hospedado no meu próprio servidor.</p>
+    <video width="500" poster="imagens/gato.jpg" controls autoplay loop>
+        <source src="video/video.mp4" type="video/mp4">
+        <source src="video/meu-video.mp4" type="video/mp4">
+        <source src="video/video.webm.webm" type="video/webm">
+        <p>Seu  navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=CATeHxa4fwZP3uvv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>
